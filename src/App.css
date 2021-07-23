@@ -1,0 +1,32 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.App { 
+   background: gray;
+   max-width:400px;
+   margin:3rem auto;
+   padding-top:1rem;
+   
+}
+.App h1 { 
+    text-align: center;
+}
+.container { 
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.list-items { 
+    padding: 1rem;
+    
+}
+.list-items li { 
+    background:#e8e8e8;
+    padding:1rem;
+    border-radius: 4px;
+    margin:1rem;
+}
